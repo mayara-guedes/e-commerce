@@ -1,0 +1,44 @@
+div {
+  width: 97%;
+  margin: 20px;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+input {
+  width: 30px;
+}
+
+p {
+  padding-top: 5px;
+}
+li {
+  margin: 5px 20px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+h2 {
+  padding-left: 40px;
+}
+
+.comprar {
+  margin-left: 50px;
+  background-color: #03bb85;
+  color: #fff;
+  font-size: 20px;
+  border: 2px;
+  cursor: pointer;
+}
+
+.item {
+  display: inline-flex;
+  justify-content: space-between;
+}

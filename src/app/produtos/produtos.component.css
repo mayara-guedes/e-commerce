@@ -1,0 +1,24 @@
+img {
+  width: 10em;
+}
+div {
+  margin: 20px;
+  padding: 40px;
+  display: inline-flex;
+  text-align: rigth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.card {
+  background-color: #f1f1f1;
+  width: 250px;
+  justify-content: center;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

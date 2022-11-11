@@ -1,0 +1,19 @@
+img {
+  width: 10em;
+}
+
+div {
+  margin: 20px;
+  padding: 30px;
+  display: inline-block;
+  text-align: rigth;
+}
+input {
+  width: 30px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

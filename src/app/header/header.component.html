@@ -1,0 +1,22 @@
+<header class="main-header">
+  <div>
+    <h1 class="main-header__title">Sky Tech</h1>
+  </div>
+  <div class="container-menu">
+    <nav class="main-header__menu">
+      <ul class="main-header__menu">
+        <li class="main-header__menu">
+          <a routerLink="produtos" class="main-header__menu"> Produtos </a>
+        </li>
+        <li class="main-header__menu">
+          <a class="badge-carrinho" routerLink="carrinho">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Carrinho
+            <span> {{ carrinhoService.obtemCarrinho().length }} </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <app-barra-pesquisa> </app-barra-pesquisa>
+  </div>
+</header>
